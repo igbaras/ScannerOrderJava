@@ -2,8 +2,8 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 class tian{
 public static void main(String[] args) {
-    DecimalFormat df = new DecimalFormat("#.##");
-    Scanner keyboard = new Scanner(System.in);
+    var df = new DecimalFormat("#.##");
+    var keyboard = new Scanner(System.in);
 
     //  Variables
     String firstName; // first name of user
